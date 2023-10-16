@@ -1,10 +1,16 @@
 .left h1{
-    margin-left: 40px;
+    margin-left: 110px;
     font-family: 'Cormorant Garamond', serif;
+    
 }
 .left a{
     text-decoration: none;
     color: black;
+}
+header{
+
+
+    width: 100%;
 }
 
 .navbar{
@@ -21,6 +27,7 @@ display: flex;
 .right li{
     list-style: none;
     margin-right:20px;
+
 }
 .right a:hover{
     color:rgb(241, 218, 188)
@@ -29,6 +36,7 @@ display: flex;
 .right a{
     text-decoration: none;
     color: black;
+   
 }
 
 .hamburger-menu {
@@ -44,7 +52,7 @@ display: flex;
     margin: 3px 0;
     transition: 0.4s;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 400px){
     .hamburger-menu {
         display: flex;
     }
@@ -64,7 +72,33 @@ display: flex;
         width: 400px;
         text-align: center;
     }
+    video{
+    margin-top: 255px;
+    }
+    .overlay p{
+        position: relative;
+        right: 220px;
+        text-align: center;
+        top: 40px;
+    }
+  
+}
 
-
-
+video{
+    position: relative;
+    top:  26px;
+}
+.overlay {
+    position:absolute;
+    left: 450px;
+    z-index: 1;
+    top: 400px;
+    color: white;
+    font-size: 40px;
+}
+.overlay p{
+    font-family: 'Cormorant Garamond', serif;
+}
+body{
+    overflow-x: hidden;
 }
