@@ -10,6 +10,7 @@ header {
   width: 100%;
 }
 
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,7 +47,7 @@ header {
   margin: 3px 0;
   transition: 0.4s;
 }
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+@media only screen and (max-width: 900px) and (min-width: 400px) {
   .hamburger-menu {
     display: flex;
   }
@@ -67,22 +68,45 @@ header {
     text-align: center;
   }
   video {
-    margin-top: 255px;
-    width: 150%;
-  }
+    margin-top: 330px;
 
+  }
+  .left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .overlay p {
     position: relative;
     right: 220px;
     text-align: center;
-    top: 40px;
+    top: 150px;
   }
+
+  
+}
+@media only screen and (max-width: 900px) {
+  .overlay p {
+    position: relative;
+    right: 265px;
+    text-align: center;
+    top: 84px;
+
+  }
+
+
+
 }
 
-video {
+/* video {
   position: relative;
-  top: 0;
-}
+  top: 150px;
+
+} */
+/* .videoplay{
+  position: relative;
+  bottom: 77px;
+} */
 .overlay {
   position: absolute;
   left: 450px;
@@ -187,8 +211,16 @@ margin-top: 20px;
     padding: 60px;
     height: 100%;
 }
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+@media only screen and (max-width: 768px) and (min-width: 300px) {
     .footer{
         flex-direction: column;
     }
+    footer{
+      width: 200%;
+    }
+
 }
+
+
+
+

@@ -104,3 +104,104 @@ margin-top: 150px;
 .designer .right img{
     width: 100%;
 }
+
+.advertisment img{
+    width: 100%;
+    margin-top: 100px;
+
+}
+.started{
+    margin-top: 100px;
+}
+.started img{
+  width: 100%;
+}
+.started h2{
+    font-family: 'Cormorant Garamond';
+    color: brown;
+    font-size: 40px;
+}
+ .started .right p{
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    
+}
+.started .right{
+    margin-top: 270px;
+}
+.started .right h4{
+    color: brown;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    
+}
+.name a{
+    font-family: "Cormorant Garamond", serif;
+}
+.name p{
+    color: gray;
+}
+.footer h3{
+    font-size: 25px;
+    font-family: "Cormorant Garamond", serif;
+}
+.footer li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    color: gray;
+}
+.footer{
+    background-color:rgb(241, 235, 228);
+    padding: 60px;
+    height: 100%;
+}
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+    .footer{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 400px)  {
+.designer .row{
+
+flex-direction: column-reverse;}
+}
+.designer .left{
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 310px)  {
+
+  .designer img{
+    width: 300%;
+    }
+
+
+}
+
+@media only screen and (max-width: 950px) and (min-width: 310px)  {
+  .started .right{
+    width: 200%;
+    
+  }
+  .started .row{
+    flex-direction: column;
+  }
+  .started img{
+    width: 150%;
+  }
+}
