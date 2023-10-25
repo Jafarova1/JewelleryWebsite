@@ -205,3 +205,14 @@ flex-direction: column-reverse;}
     width: 150%;
   }
 }
+
+.shop h3{
+  text-align: center;
+  }
+  .shop ul{
+    align-items: center;
+  }
+  .adress h3{
+    text-align: center;
+  }
+  

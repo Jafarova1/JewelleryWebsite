@@ -1,0 +1,105 @@
+.left h1 {
+    margin-left: 110px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .left a {
+    text-decoration: none;
+    color: black;
+  }
+  header {
+    width: 100%;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right {
+    margin-right: 65px;
+  }
+  .right ul {
+    display: flex;
+  }
+  .right li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  .right a:hover {
+    color: rgb(241, 218, 188);
+  }
+  
+  .right a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 400px) {
+    .hamburger-menu {
+      display: flex;
+    }
+    .list {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      text-align: center;
+    }
+    .list li {
+      margin-top: 20px;
+    }
+    .left h1 {
+      width: 305px;
+      text-align: center;
+    }
+
+  
+    
+  }
+
+  #cart h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: myFirstFont;
+    color: black;
+  }
+  #cart .table img {
+    width: 50px;
+    height: 50px;
+  }
+  #cart .table th {
+    text-align: center;
+    border: none;
+    font-size: 20px;
+  }
+  #cart .table tbody {
+    text-align: center;
+  }
+  @media (max-width: 1000px)and (min-width: 400px) {
+
+    .list{
+      position: relative;
+      align-items: center;
+      left: 164px;
+      top: 4px;
+    }
+    .basket{
+      font-size: 20px;
+      top: 10px;
+    }
+  }
