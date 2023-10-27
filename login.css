@@ -15,7 +15,7 @@ img{
   position: absolute;
   bottom: 400px;
   left: 550px;
-  color: rgb(130, 72, 102);
+  color: antiquewhite;
 }
 
 input[type=text], input[type=password] {
@@ -57,4 +57,19 @@ hr {
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
+}
+
+.text a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.login h1{
+  color:rgb(194, 153, 174);
+}
+a{
+  text-decoration: none;
 }

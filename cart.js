@@ -158,6 +158,7 @@ total.innerText=`${price(products)} $`
 
 
 
+
 if (products != null) {
     products.forEach(product => {
         tableBody.innerHTML += `<tr>
@@ -240,7 +241,8 @@ increaseButtons.forEach(btn => {
 
         for (const count of countProduct) {
             if (count.getAttribute("data-id") == btn.getAttribute("data-id")) {
-                count.innerText = parseInt(count.innerText) + 1
+                 count.innerText = parseInt(count.innerText) + 1
+              
             }
         }      
       

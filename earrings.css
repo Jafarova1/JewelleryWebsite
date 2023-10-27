@@ -417,3 +417,58 @@ img{
 .button a:hover{
   background-color: rgb(131, 121, 126) ;
 }
+
+@media only screen and (min-width: 400px) {
+  .basket{
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    position: relative;
+    bottom:20px;
+  
+  }
+  sup{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 30px;
+
+  }
+  .card{
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  }
+  
+  .footer h3{
+    text-align: justify;
+  }
+  .product-image img{
+    width: 100%;
+  }
+  
+  
+  }
+  
+  @media only screen and (min-width: 650px) {
+  .footer{
+    gap: 25px;
+  }
+  
+  
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 1400px)  {
+    .basket{
+     bottom: 0px;
+    }
+    .card{
+      width: 100%;
+    
+    }
+    
+    }
+  
