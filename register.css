@@ -69,3 +69,27 @@ a{
   text-decoration: none;
   
 }
+
+
+
+
+@media only screen and (min-width: 400px) {
+
+  .text h1{
+    position: relative;
+    top: 100px;
+    right: 361px;
+  }
+}
+@media only screen and (min-width: 400px) {
+
+  .text a{
+    position: relative;
+    top: 100px;
+    right: 361px;
+  }
+}
+body{
+  overflow-x: hidden;
+}
+

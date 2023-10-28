@@ -221,5 +221,30 @@ flex-direction: column-reverse;}
 
 
   }
+
   
+  /* @media only screen and (max-width: 200px)  {
+.designer .right{
+  position: relative;
+  width: 100%;
+  left: 50%;
+  bottom: 270px;
+}
+.designer .left{
+  position: relative;
+  width: 100%;
+  left: 50%;
+  bottom: 270px;
+}
+.advertisment img{
+  position: relative;
+  bottom: 270px;
+}
+.started{
+  position: relative;
+  bottom: 270px;
+}
+
+  }
+   */
   
