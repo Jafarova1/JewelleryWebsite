@@ -138,6 +138,9 @@ body {
 .products {
   display: inline;
 }
+#products h2{
+  text-align: center;
+}
 
 @media only screen and (max-width: 1042px) and (min-width: 120px) {
   .products img {
@@ -510,3 +513,11 @@ margin-top: 30px;
     }
   }
 
+.designers h2{
+  text-align: center;
+  margin-top: 150px;
+
+}
+.owl-carousel{
+  margin-top: 70px;
+}

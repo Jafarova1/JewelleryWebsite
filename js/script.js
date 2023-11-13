@@ -32,13 +32,13 @@ basketBtn.forEach(btn => {
         localStorage.setItem("basket", JSON.stringify(basket));
         getBasketCount(basket);
 
-        Swal.fire({
-            position: 'top-center',
-            icon: 'success',
-            title: 'Added to cart',
-            showConfirmButton: false,
-            timer: 1500
-          })
+        // Swal.fire({
+        //     position: 'top-center',
+        //     icon: 'success',
+        //     title: 'Added to cart',
+        //     showConfirmButton: false,
+        //     timer: 1500
+        //   })
     })
 });
 
@@ -54,3 +54,7 @@ function getBasketCount(arr){
 
     document.querySelector("sup").innerText=count;
 }
+
+
+
+
