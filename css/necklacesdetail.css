@@ -1,0 +1,106 @@
+.left h1 {
+    margin-left: 110px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .left a {
+    text-decoration: none;
+    color: black;
+  }
+  header {
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right {
+    margin-right: 65px;
+  }
+  .right ul {
+    display: flex;
+  }
+  .right li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  .right a:hover {
+    color: rgb(241, 218, 188);
+  }
+  
+  .right a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  @media only screen and (max-width: 768px) and (min-width: 400px) {
+    .hamburger-menu {
+      display: flex;
+    }
+    .list {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      text-align: center;
+    }
+    .list li {
+      margin-top: 20px;
+    }
+    .left h1 {
+      width: 305px;
+      text-align: center;
+    }
+
+  }
+  
+
+  .detailpage h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+    color: brown;
+  }
+  .box {
+display: flex;
+margin-top: 60px;
+  }
+  .box .right {
+    margin-top: 110px;
+  }
+  .right p:nth-child(1){
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+  }
+  .name{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond';
+    color: brown;
+    font-weight: 550;
+  }
+  .color{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond';
+    color: brown;
+    font-weight: 550;
+  }
+  .right span{
+    color: brown;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond';
+  }
